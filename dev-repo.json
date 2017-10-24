@@ -1,0 +1,40 @@
+{
+    "repo": {
+        "name": "Anime List 3.0 DEV Repo",
+        "description": "Официальный репозиторий с плагинами для разработчиков"
+    },
+    "plugins": [
+        {
+            "id": "dev-consolebutton",
+            "version": "1.0.0",
+            "name": "Кнопка консоли",
+            "author": "VLADOS776",
+            "description": "Добавляет кнопку вызова консоли слева от поиска",
+            "min-version": "1.5.0"
+        },
+        {
+            "id": "dev-logevents",
+            "version": "1.0.0",
+            "name": "Log events",
+            "author": "VLADOS776",
+            "description": "Плагин выводит в консоль все события, которые отправляются плагинам",
+            "min-version": "1.5.0"
+        },
+        {
+            "id": "dev-server",
+            "version": "1.0.0",
+            "name": "Расширение сервера",
+            "author": "VLADOS776",
+            "description": "Пример расширения функционала встроенного сервера",
+            "min-version": "1.5.0"
+        },
+        {
+            "id": "dev-custom-server",
+            "version": "1.0.0",
+            "name": "Свой сервер",
+            "author": "VLADOS776",
+            "description": "Пример собственного сервера. Запускается при старте. Можно зайти по адресу localhost:3500",
+            "min-version": "1.5.0"
+        }
+    ]
+}
