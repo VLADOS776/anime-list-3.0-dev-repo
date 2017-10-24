@@ -1,7 +1,7 @@
 module.exports = function(Plugin, pluginPaths) {
     const config = {
         name: '[DEV] Свой сервер',
-        id: 'dorama',
+        id: 'dev-custom-server',
         description: 'Пример собственного сервера. Запускается при старте. Можно зайти по адресу localhost:3500',
         version: '1.0.0',
         minAppVersion: '1.4.0',
