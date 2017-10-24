@@ -2,7 +2,7 @@ module.exports = function(Plugin) {
     const config = {
         name: '[DEV] Расширение сервера',
         id: 'dev-server',
-        description: 'Пример расширения функционала встроенного сервера',
+        description: 'Пример расширения функционала встроенного сервера. Доступна новая страница по адресу "адрес-сервера/new-page"',
         version: '1.0.0',
         minAppVersion: '1.4.0',
         author: 'VLADOS776',
@@ -16,7 +16,6 @@ module.exports = function(Plugin) {
             Server = opt.dependencies.server;
             
             Server.app().get('/new-page', function(req, res) {
-                
                 res.header('Content-Type', 'application/json; charset=utf-8');
                 res.end('Hello. This page created by "' + config.name + '" plugin.')
             })
